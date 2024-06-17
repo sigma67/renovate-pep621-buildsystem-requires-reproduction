@@ -17,4 +17,7 @@ jobs:
     - name: Renovate Bot GitHub Action
       with: # Set the secret as an input
         token: ${{ secrets.RENOVATE_TOKEN }}
+        configurationFile: renovate-config.js
+      env: # set env
+        RENOVATE_AUTODISCOVER: "true"
       uses: renovatebot/github-action@v40.1.12
