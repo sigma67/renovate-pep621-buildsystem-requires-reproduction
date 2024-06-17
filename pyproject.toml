@@ -1,0 +1,7 @@
+[project]
+dependencies = [
+    "filelock>=3.14.0",
+]
+
+[build-system]
+requires = ["pdm-backend", "pdm-build-locked==2.0.0"]
