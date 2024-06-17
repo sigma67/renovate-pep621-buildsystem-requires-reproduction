@@ -1,6 +1,7 @@
 [project]
 dependencies = [
     "filelock==3.14.0",
+    "requests"
 ]
 
 
@@ -14,3 +15,7 @@ extras = [
 [build-system]
 requires = ["pdm-backend", "pdm-build-locked==0.2.0"]
 
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=6.0.0",
+]
