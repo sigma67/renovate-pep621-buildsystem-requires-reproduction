@@ -5,8 +5,7 @@ module.exports = {
   onboarding: false,
   platform: 'github',
   includeForks: true,
-  dryRun: 'full',
-  repositories: ['renovate-tests/cocoapods1', 'renovate-tests/gomod1'],
+  repositories: ['sigma67/renovate-pep621-buildsystem-requires-reproduction'],
   packageRules: [
     {
       description: 'lockFileMaintenance',
