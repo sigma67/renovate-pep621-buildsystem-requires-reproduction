@@ -6,19 +6,25 @@ module.exports = {
   platform: 'github',
   includeForks: true,
   repositories: ['sigma67/renovate-pep621-buildsystem-requires-reproduction'],
+  lockFileMaintenance: {
+    "enabled": true,
+    "schedule": ["at any time"],
+    "groupName": "all dependencies"
+  },
   packageRules: [
     {
-      description: 'lockFileMaintenance',
-      matchUpdateTypes: [
-        'pin',
-        'digest',
-        'patch',
-        'minor',
-        'major',
-        'lockFileMaintenance',
+      "groupName": "all dependencies",
+      "groupSlug": "all",
+      "matchUpdateTypes": [
+          "*"
       ],
-      dependencyDashboardApproval: false,
-      stabilityDays: 0,
+      "matchPackagePatterns": [
+        "*"
+      ]
+    },
+    {
+      "matchManagers": ["pep621"],
+      "rangeStrategy": "bump",
     },
   ],
 };
