@@ -3,5 +3,8 @@ dependencies = [
     "filelock>=3.14.0",
 ]
 
+requires-python = ">=3.10"
+
 [build-system]
 requires = ["pdm-backend", "pdm-build-locked==0.2.0"]
+
