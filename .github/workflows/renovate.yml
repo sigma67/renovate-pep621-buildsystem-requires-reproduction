@@ -15,4 +15,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4.1.7
     - name: Renovate Bot GitHub Action
+      with: # Set the secret as an input
+        RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
       uses: renovatebot/github-action@v40.1.12
