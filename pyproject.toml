@@ -4,4 +4,4 @@ dependencies = [
 ]
 
 [build-system]
-requires = ["pdm-backend", "pdm-build-locked==2.0.0"]
+requires = ["pdm-backend", "pdm-build-locked==0.2.0"]
