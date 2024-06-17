@@ -2,10 +2,10 @@
 # It is not intended for manual editing.
 
 [metadata]
-groups = ["default"]
+groups = ["default", "extras"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:cff8d9e48c443f81777e014a49c5b6e2258ea4431100a2b4823d952c35c8b1c2"
+content_hash = "sha256:5de7052a3bbb39887e853c37f278abcd027eb4444acb838bf2688327c7ae02a8"
 
 [[package]]
 name = "filelock"
@@ -16,4 +16,15 @@ groups = ["default"]
 files = [
     {file = "filelock-3.14.0-py3-none-any.whl", hash = "sha256:43339835842f110ca7ae60f1e1c160714c5a6afd15a2873419ab185334975c0f"},
     {file = "filelock-3.14.0.tar.gz", hash = "sha256:6ea72da3be9b8c82afd3edcf99f2fffbb5076335a5ae4d03248bb5b6c3eae78a"},
+]
+
+[[package]]
+name = "pycowsay"
+version = "0.0.0.1"
+requires_python = ">=3.6"
+summary = "UNKNOWN"
+groups = ["extras"]
+files = [
+    {file = "pycowsay-0.0.0.1-py3-none-any.whl", hash = "sha256:47d1034835b487cb790767496d8a5649c411e0185a97d93bb99d214a2ba91d4c"},
+    {file = "pycowsay-0.0.0.1.tar.gz", hash = "sha256:082d4a19e8d1ce1e42178168e56d4e4a75275bfa86c133530f5b71f39df5ae8c"},
 ]

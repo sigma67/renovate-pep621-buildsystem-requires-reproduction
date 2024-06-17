@@ -3,12 +3,13 @@ dependencies = [
     "filelock==3.14.0",
 ]
 
+
+requires-python = ">=3.10"
+
 [project.optional-dependencies]
 extras = [
     "pycowsay==0.0.0.1",
 ]
-
-requires-python = ">=3.10"
 
 [build-system]
 requires = ["pdm-backend", "pdm-build-locked==0.2.0"]
