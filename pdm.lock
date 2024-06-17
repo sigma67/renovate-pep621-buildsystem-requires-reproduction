@@ -5,7 +5,7 @@
 groups = ["default", "dev", "extras"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:71ec924cffce4a2b5eea71ea5388e7ef09083fa56b7c1593266750f8380735d9"
+content_hash = "sha256:702d57f5a915e4ef0a4b304ff01424ff0f9a489ab9fa5825845c5986e970c71f"
 
 [[package]]
 name = "certifi"
@@ -100,13 +100,13 @@ files = [
 
 [[package]]
 name = "filelock"
-version = "3.14.0"
+version = "3.15.1"
 requires_python = ">=3.8"
 summary = "A platform independent file lock."
 groups = ["default"]
 files = [
-    {file = "filelock-3.14.0-py3-none-any.whl", hash = "sha256:43339835842f110ca7ae60f1e1c160714c5a6afd15a2873419ab185334975c0f"},
-    {file = "filelock-3.14.0.tar.gz", hash = "sha256:6ea72da3be9b8c82afd3edcf99f2fffbb5076335a5ae4d03248bb5b6c3eae78a"},
+    {file = "filelock-3.15.1-py3-none-any.whl", hash = "sha256:71b3102950e91dfc1bb4209b64be4dc8854f40e5f534428d8684f953ac847fac"},
+    {file = "filelock-3.15.1.tar.gz", hash = "sha256:58a2549afdf9e02e10720eaa4d4470f56386d7a6f72edd7d0596337af8ed7ad8"},
 ]
 
 [[package]]
@@ -155,13 +155,13 @@ files = [
 
 [[package]]
 name = "pycowsay"
-version = "0.0.0.1"
+version = "0.0.0.2"
 requires_python = ">=3.6"
-summary = "UNKNOWN"
+summary = ""
 groups = ["extras"]
 files = [
-    {file = "pycowsay-0.0.0.1-py3-none-any.whl", hash = "sha256:47d1034835b487cb790767496d8a5649c411e0185a97d93bb99d214a2ba91d4c"},
-    {file = "pycowsay-0.0.0.1.tar.gz", hash = "sha256:082d4a19e8d1ce1e42178168e56d4e4a75275bfa86c133530f5b71f39df5ae8c"},
+    {file = "pycowsay-0.0.0.2-py3-none-any.whl", hash = "sha256:5c03d8a9c7666ec102aaed4bbd6c7d35228489ce236f95f6e5d079529c6a5050"},
+    {file = "pycowsay-0.0.0.2.tar.gz", hash = "sha256:d112c4ce55b04dbc363c5a8957b80a0dc7459e864866d6e0202d15a95633bcf4"},
 ]
 
 [[package]]
