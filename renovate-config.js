@@ -14,16 +14,6 @@ module.exports = {
   },
   packageRules: [
     {
-      groupName: "all dependencies",
-      groupSlug: "all",
-      matchUpdateTypes: [
-          "*"
-      ],
-      matchPackagePatterns: [
-        "*"
-      ]
-    },
-    {
       matchManagers: ["pep621"],
       rangeStrategy: "bump",
     },
