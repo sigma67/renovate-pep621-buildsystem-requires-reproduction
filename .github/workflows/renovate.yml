@@ -16,11 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v4.1.7
+      uses: actions/checkout@v4
     - name: Renovate Bot GitHub Action
       with: # Set the secret as an input
         token: ${{ secrets.RENOVATE_TOKEN }}
         configurationFile: renovate-config.js
       env:
         LOG_LEVEL: 'debug'
-      uses: renovatebot/github-action@v40.1.12
+      uses: renovatebot/github-action@v40.2.7

@@ -1,1 +1,19 @@
-{}
+{
+  "branchPrefix": "test-renovate/",
+  "username": "renovate-release",
+  "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
+  "onboarding": false,
+  "platform": "github",
+  "includeForks": true,
+  "repositories": ["sigma67/renovate-pep621-buildsystem-requires-reproduction"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["at any time"],
+  },
+  "packageRules": [
+    {
+      "matchManagers": ["pep621"],
+      "rangeStrategy": "bump"
+    }
+  ]
+}
