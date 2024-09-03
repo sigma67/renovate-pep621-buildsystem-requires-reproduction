@@ -9,11 +9,5 @@
   "lockFileMaintenance": {
     "enabled": true,
     "schedule": ["at any time"]
-  },
-  "packageRules": [
-    {
-      "matchManagers": ["pep621"],
-      "rangeStrategy": "bump"
-    }
-  ]
+  }
 }
