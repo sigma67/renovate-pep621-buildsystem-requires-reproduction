@@ -20,7 +20,7 @@ jobs:
     - name: Renovate Bot GitHub Action
       with: # Set the secret as an input
         token: ${{ secrets.RENOVATE_TOKEN }}
-        configurationFile: renovate-config.js
+        configurationFile: renovate.json
       env:
         LOG_LEVEL: 'debug'
       uses: renovatebot/github-action@v40.2.7

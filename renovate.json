@@ -8,7 +8,7 @@
   "repositories": ["sigma67/renovate-pep621-buildsystem-requires-reproduction"],
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["at any time"],
+    "schedule": ["at any time"]
   },
   "packageRules": [
     {
