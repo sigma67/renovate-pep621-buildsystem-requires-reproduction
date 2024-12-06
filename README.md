@@ -14,4 +14,4 @@ Explain the expected behavior here.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+Put your link to the Renovate issue or Discussion here
