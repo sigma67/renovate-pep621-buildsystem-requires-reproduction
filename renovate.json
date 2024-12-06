@@ -4,5 +4,11 @@
     "schedule": ["at any time"]
   },
   "repositories": ["sigma67/renovate-pep621-buildsystem-requires-reproduction"],
-  "prHourlyLimit": 25
+  "prHourlyLimit": 25,
+  "packageRules": [
+    {
+      "matchManagers": ["pep621"],
+      "rangeStrategy": "bump"
+    }
+  ]
 }
